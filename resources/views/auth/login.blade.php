@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Alertas</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,29 +29,31 @@
                   <h4 class="mt-1 mb-5 pb-1">Iniciar Sesión </h4>
                 </div>
 
-                <form>
+                <form action ="{{route('login')}}" method="post">
+                  @csrf
+
                   <p>Ingrese su E-mail y Contraseña</p>
 
                   <div class="form-outline mb-4">
-                    <input type="email" id="form2Example11" class="form-control"
+                    <input type="email" name = "email" id="form2Example11" class="form-control"
                       placeholder="Direccion de correo electronico" />
                     <label class="form-label" for="form2Example11">E-mail</label>
                   </div>
 
                   <div class="form-outline mb-4">
-                    <input type="password" id="form2Example22" class="form-control" />
+                    <input type="password"  name="password" id="form2Example22" class="form-control" />
                     <label class="form-label" for="form2Example22">Contraseña</label>
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
                     <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Ingresar</button>
-                    <a class="text-muted" href="#!">Has olvidado tu contraseña?</a>
+                    
                   </div>
 
-                 <!-- <div class="d-flex align-items-center justify-content-center pb-4">
+                 <div class="d-flex align-items-center justify-content-center pb-4">
                     <p class="mb-0 me-2">No tienes una cuenta?</p>
-                    <button type="button" class="btn btn-outline-danger">Create new</button>
-                  </div>-->
+                    <a href = "{{route('register')}}" class="btn btn-outline-danger">Crear nuevo</a>
+                  </div>
 
                 </form>
 
