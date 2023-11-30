@@ -64,7 +64,7 @@
                 <h4 class="mb-4"> Sistema de Alertas Tempranas</h4>
                 <p class="small mb-0"> Sistemas de Alerta Temprana para estudiantes en riesgo de abandono
                    de la Educación primaria y secundaria</p>
-              </div>
+              </div></
             </div>
           </div>
         </div>
