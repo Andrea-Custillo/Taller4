@@ -39,11 +39,14 @@
                     
                   </div>
 
+                  <div class="form-outline mb-4">
+                   <label class="form-label" for="form2Example11">Apellido</label>
+                   <input type="text" name = "apellido" id="form2Example11" class="form-control"
+                   placeholder="Ingresa tu apellido" />
+                    
+                  </div>
 
-               
 
-                  
-                  
 
                   <div class="form-outline mb-4">
                     <label class="form-label" for="form2Example11">E-mail</label>
@@ -79,12 +82,12 @@
 
               </div>
             </div>
-           <!-- <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
               <div class="text-white px-3 py-4 p-md-5 mx-md-4">
                 <h4 class="mb-4"> Sistema de Alertas Tempranas</h4>
                 <p class="small mb-0"> Sistemas de Alerta Temprana para estudiantes en riesgo de abandono
                    de la Educación primaria y secundaria</p>
-              </div><-->
+              </div>
             </div>
           </div>
         </div>
