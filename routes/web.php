@@ -14,9 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('plantilla');
 });
 
-Auth::routes();
+/*Auth::routes();*/
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('seccion', App\Http\Controllers\seccionController::class);
+Route::resource('estudiante', App\Http\Controllers\estudianteController::class);
+
+
